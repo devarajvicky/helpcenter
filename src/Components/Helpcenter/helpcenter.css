@@ -1,0 +1,45 @@
+.search-container {
+  background-color: rgb(215, 185, 229);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+}
+.search-container p {
+  font-size: 40px;
+}
+.search-container input {
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+}
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-list-container {
+  display: flex;
+  width: 900px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.Error-msg {
+  color: red;
+  text-align: center;
+}
+.footer-card {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
